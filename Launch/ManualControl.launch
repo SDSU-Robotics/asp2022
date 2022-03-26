@@ -22,7 +22,7 @@
     <param name="io_method" value="mmap"/>
   </node -->
 
-<node pkg="asp2022" type="pumpControl" name="pumpControl" />
+<!--<node pkg="asp2022" type="pumpControl" name="pumpControl" />-->
 
 <!--
   <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
