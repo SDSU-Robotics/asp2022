@@ -33,7 +33,7 @@ class Listener
     public:
         void setPump(const std_msgs::Float32 motorSpeed);
 
-        VictorSPX pumpDrive = {DeviceIDs::PumpTalon};
+        TalonSRX pumpDrive = {DeviceIDs::PumpTalon};
 };
 
 void Listener::setPump(const std_msgs::Float32 motorSpeed)

@@ -12,6 +12,7 @@
 
     <node pkg="asp2022" type="motorController" name="motorController" />
     <node pkg="asp2022" type="ManualDriveBase" name="ManualDriveBase" />
+    <node pkg="asp2022" type="pumpControl" name="pumpControl" />
 
 <!--node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
     <param name="video_device" value="/dev/video2" />
@@ -22,7 +23,7 @@
     <param name="io_method" value="mmap"/>
   </node -->
 
-<!--<node pkg="asp2022" type="pumpControl" name="pumpControl" />-->
+    
 
 <!--
   <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
